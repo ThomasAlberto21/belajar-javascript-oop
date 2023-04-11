@@ -23,6 +23,7 @@ const students = [
   },
 ];
 
+
 const allScoreStudents = students.reduce(
   (acc, student) => acc + student.score,
   0
