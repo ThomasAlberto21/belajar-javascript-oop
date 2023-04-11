@@ -1,3 +1,9 @@
+/*
+
+    Fungsi filter() pada JavaScript adalah salah satu method bawaan dari objek Array yang digunakan untuk membuat array baru dengan elemen-elemen yang memenuhi kriteria tertentu.
+
+*/
+
 const truthyArray = [1, '', 'Hallo', 0, null, 'Harry', 14].filter((item) =>
   Boolean(item)
 );
